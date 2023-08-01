@@ -19,6 +19,8 @@ type FilterOperator =
   | '$lt'
   | '$lte'
   | '$in'
+  | '$or'
+  | '$and'
   | '$nin';
 
 /**
